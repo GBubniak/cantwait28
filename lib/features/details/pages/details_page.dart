@@ -1,4 +1,3 @@
-import 'package:cantwait28/features/add/page/add_page.dart';
 import 'package:cantwait28/features/details/cubit/details_cubit.dart';
 import 'package:cantwait28/models/item_model.dart';
 import 'package:cantwait28/repositories/items_repository.dart';
@@ -95,7 +94,7 @@ class _ListViewItem extends StatelessWidget {
                         ),
                         const SizedBox(height: 10),
                         Text(
-                          itemModel.relaseDate.toString(),
+                          itemModel.relaseDateFormated(),
                         ),
                       ],
                     ),
